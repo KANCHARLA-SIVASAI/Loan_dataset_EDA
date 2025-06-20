@@ -79,31 +79,12 @@ Typical features include:
 
 ---
 
-## 🎯 Summary & Next Steps
+## 🎯 Summary 
 
 **Summary**:  
 Your EDA is comprehensive and clean: distributions, correlations, outlier treatment, and target insights are well-covered. Categorical imbalances and skewed data distributions are now clearly identified.
 
-**Next Steps**:  
-1. **Preprocessing for modeling**  
-   - Log-transform skewed features.  
-   - Encode categorical variables (one-hot/label).  
-   - Normalize or scale as needed.
-
-2. **Model Prep**  
-   - Handle class imbalance (e.g., SMOTE or stratified sampling).  
-   - Select features based on EDA insights (e.g., `annual_income`, `loan_purpose`, `employment_type`).
-
-3. **Modeling**  
-   - Test classifiers: logistic regression, random forest, XGBoost.  
-   - Use cross-validation; tune hyperparameters.
-
-4. **Evaluation**  
-   - Focus on recall/F1-score for the “default” class.  
-   - Analyze feature importance to refine future feature engineering.
-
----
-
+ 
 ## 🧪 How to Reproduce
 
 1. Clone the repo:  
